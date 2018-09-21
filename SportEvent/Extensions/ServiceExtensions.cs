@@ -7,6 +7,8 @@ using SportEvent.Data;
 using SportEvent.Data.Repository.Interfaces;
 using SportEvent.Helper;
 using SportEvent.Helper.Interfaces;
+using SportEvent.Bll.Interfaces;
+using SportEvent.Bll;
 
 namespace SportEvent.Extensions
 {
@@ -32,11 +34,11 @@ namespace SportEvent.Extensions
         /// <param name="services">The service collection.</param>
         public static void ConfigureBll(this IServiceCollection services)
         {
-
+            services.AddScoped<IEvent, Event>();
         }
 
         /// <summary>
-        /// Add Singletion Logger Class
+        /// Add Singletion Logger Class.
         /// </summary>
         /// <param name="services">The service collection.</param>
         public static void ConfigureLoggerService(this IServiceCollection services)

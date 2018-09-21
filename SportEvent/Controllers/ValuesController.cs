@@ -9,7 +9,7 @@ namespace SportEvent.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ServiceFilter(typeof(BasicAuthAttribute))]
+    //[ServiceFilter(typeof(BasicAuthAttribute))]
     public class ValuesController : ControllerBase
     {
         // GET api/values
