@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sportevent:
+    image: ${DOCKER_REGISTRY}sportevent
+    build:
+      context: .
+      dockerfile: SportEvent/Dockerfile

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportEvent", "SportEvent\SportEvent.csproj", "{26EA5A95-E9F9-4D7E-9FD6-0FB50CBDCE5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportEvent", "SportEvent\SportEvent.csproj", "{26EA5A95-E9F9-4D7E-9FD6-0FB50CBDCE5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportEvent.Bll", "SportEvent.Bll\SportEvent.Bll.csproj", "{552F2E20-EDB7-4AC7-89AC-7E5C56E28ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportEvent.Bll", "SportEvent.Bll\SportEvent.Bll.csproj", "{552F2E20-EDB7-4AC7-89AC-7E5C56E28ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportEvent.Data", "SportEvent.Data\SportEvent.Data.csproj", "{341E10EE-CB4A-418B-8D80-7A86307157BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportEvent.Data", "SportEvent.Data\SportEvent.Data.csproj", "{341E10EE-CB4A-418B-8D80-7A86307157BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportEvent.Helper", "SportEvent.Helper\SportEvent.Helper.csproj", "{CABA7EFC-2297-4BBB-9824-0133CA3210F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportEvent.Helper", "SportEvent.Helper\SportEvent.Helper.csproj", "{CABA7EFC-2297-4BBB-9824-0133CA3210F9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8FFB88DC-0CAC-4053-81F6-AAF6DE35A350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CABA7EFC-2297-4BBB-9824-0133CA3210F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CABA7EFC-2297-4BBB-9824-0133CA3210F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CABA7EFC-2297-4BBB-9824-0133CA3210F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFB88DC-0CAC-4053-81F6-AAF6DE35A350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFB88DC-0CAC-4053-81F6-AAF6DE35A350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFB88DC-0CAC-4053-81F6-AAF6DE35A350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFB88DC-0CAC-4053-81F6-AAF6DE35A350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
